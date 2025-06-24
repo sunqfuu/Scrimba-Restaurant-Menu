@@ -47,13 +47,6 @@ It showcases smooth animations, category filtering, and appetizing visuals—per
 
 ---
 
-## 📸 Screenshots & Previews
-
-> *(These images above showcase animation mockups and layout concepts.)*  
-> Your performance looks great in the live demo!
-
----
-
 ## 🧠 Learning Outcomes
 
 - Managing menu data in JavaScript for dynamic UI  
@@ -78,14 +71,3 @@ It showcases smooth animations, category filtering, and appetizing visuals—per
 - Inspired by elegant menu designs on Dribbble  
 - Developed with passion by **sunqfuu**  
 
----
-
-## 🌐 Connect
-
-- 🐙 [GitHub](https://github.com/sunqfuu)  
-- 💼 [LinkedIn](https://linkedin.com/in/yourprofile)  
-- 🌍 [Portfolio](https://your-portfolio-link.com)
-
----
-
-> “A well-built menu interface is a recipe for great user experience.” 😊
