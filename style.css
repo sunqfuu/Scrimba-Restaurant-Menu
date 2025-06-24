@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Smythe", system-ui;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url("./asset/header.png");
+  height: 167px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.product-card {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border-bottom: 1px solid #dedede;
+  padding: 20px;
+}
+
+.product-icon {
+  color: green;
+}
+
+.product-add {
+  border: 1px solid #dedede;
+  border-radius: 9999px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.product-add:hover {
+  color: green;
+  border-color: green;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.order-section {
+  padding: 20px 0;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+.order-section-header {
+  text-align: center;
+}
+
+.product-order {
+  display: flex;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid black;
+}
+
+.remove-product-btn {
+  background: none;
+  border: none;
+  color: #aeaeae;
+  cursor: pointer;
+}
+
+.remove-product-btn:hover {
+  color: #808080;
+}
+
+.product-order-price {
+  margin-left: auto;
+}
+
+.complete-section {
+  text-align: center;
+}
+
+.complete-order-btn {
+  background-color: #16db99;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 8px;
+}
+
+.complete-order-btn:hover {
+  background-color: #13c88a;
+}
+
+.total-price-section {
+  padding: 12px 0;
+}
+
+.total-price {
+  float: right;
+}
+
+.pay-modal {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 360px;
+  width: 100%;
+  position: relative;
+}
+
+.pay-modal::backdrop {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(2px);
+}
+
+.pay-modal-header {
+  margin-bottom: 20px;
+}
+
+.pay-modal-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.close-modal {
+  font-size: 40px;
+  font-weight: bold;
+  color: #aaa;
+  cursor: pointer;
+  transition: color 0.3s;
+  position: absolute;
+  top: 0;
+  right: 16px;
+}
+
+.close-modal:hover {
+  color: #333;
+}
+
+.order-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.order-form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+.order-form button:hover {
+  background-color: #45a049;
+}
+
+.order-message {
+  background-color: #ecfdf5;
+  color: #065f46;
+  padding: 24px 32px;
+  margin-top: 32px;
+  text-align: center;
+  font-size: 24px;
+}

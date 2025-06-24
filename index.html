@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header"></header>
+      <main class="main">
+        <div class="cards"></div>
+        <div class="orders"></div>
+      </main>
+      <dialog class="pay-modal">
+        <div class="pay-modal-header">
+          <h2 class="pay-modal-title">Enter card details</h2>
+          <span class="close-modal">&times;</span>
+        </div>
+        <form class="order-form" method="dialog">
+          <input
+            type="text"
+            id="customer-name"
+            placeholder="Enter your name"
+            pattern="[A-Za-z\s]+"
+            title="Name should only contain letters and spaces"
+            required
+          />
+          <input
+            type="text"
+            id="card-number"
+            placeholder="Enter card number"
+            pattern="\d{13,19}"
+            title="Card number should be between 13 and 19 digits"
+            required
+          />
+          <input
+            type="text"
+            id="cvv"
+            name="cvv"
+            maxlength="4"
+            pattern="\d{3,4}"
+            placeholder="CVV"
+            title="CVV should be 3 or 4 digits"
+            required
+          />
+          <button type="submit" class="complete-payment-btn">Pay</button>
+        </form>
+      </dialog>
+    </div>
+  </body>
+</html>
