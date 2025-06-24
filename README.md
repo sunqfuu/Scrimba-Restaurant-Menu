@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="400" alt="Restaurant menu animation" />
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG8xZTQyNjExeHJxeTU1Zmt4Mm8ydW55eHVkcGl4MzFrNWNnODEyNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rSMmhC1rtIeBsAQu9P/giphy.gif" width="400" alt="Restaurant menu animation" />
 </p>
 
 ---
